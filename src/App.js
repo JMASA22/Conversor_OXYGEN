@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import Conversor from "./comonents/Conversor";
+import Lista from "./components/Lista";
+import "./App.css";
 
 function App() {
   return (
